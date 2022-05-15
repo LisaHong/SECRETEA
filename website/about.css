@@ -1,0 +1,58 @@
+* {
+    background: #FFF2E8;
+    box-sizing: border-box;
+    color: #4A4A4A;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+
+    left: 100px;
+    top: 50px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 150px;
+    position: relative;
+
+    left: 1200px;
+    top: 50px;
+}
+
+.nav-items li a {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Heading */
+h1 {
+    font-size: 50px;
+    position: absolute;
+
+    left: 100px;
+    top: 170px;
+}
+
+/* Paragraph */
+.about-paragraph {
+    font-size: 20px;
+    position: absolute;
+    text-justify: inter-word;
+    text-align: left;
+    width: 550px;
+
+    left: 1100px;
+    top: 330px;
+}
